@@ -1,37 +1,3 @@
-##import turtle as t
-##colors=['red','blue','yellow','green']
-##
-##for s in range(0,4):
-##    t.rt(120)
-##
-##    for i in colors:
-##        t.color (i)
-##        t.fd(300)
-##        t.rt(90)
-
-
-##for i in range(4):
-##    try:
-##        l=int(input('give me a number'))
-##        m=int(input('give me a number'))
-##
-##        print(l+m)
-##    except ValueError:
-##        print('try again')
-
-
-##password=60
-##
-##for i in range(3):
-##    try: 
-##        pas=int(input("what is the password"))
-##        if pas==password:
-##            print('box is opened')
-##            break
-##        else:
-##            print('try again')
-##    except ValueError:
-##        print('enter a number
 while True:
     try:
         user_input1=input('enter a number: ')
